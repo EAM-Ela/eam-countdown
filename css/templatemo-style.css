@@ -105,7 +105,7 @@ img {
 .navbar-default {
     background: #fff;
     border: none;
-    padding-right: 40px;
+    /* padding-right: 40px; */
     margin: 0 !important;
   }
 .navbar-default .navbar-brand {
@@ -228,6 +228,7 @@ ul.countdown li h3
   padding-bottom: 10px
 }
 
+
 /* work section */
 #work {
   text-align: center;
@@ -339,6 +340,7 @@ ul.countdown li h3
 #about .about-des {
   padding: 60px;
 }
+
 }
 
 @media ( max-width:  480px ) {
@@ -370,4 +372,8 @@ ul.countdown li h3
   #contact h2 {
     padding-top: 20px;
   }
+	.img-responsive{
+		width: 100%;
+		padding: 50px 90px 0;
+	}
 }
